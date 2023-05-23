@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id = "demo">Hello wolrd!</p>   
+<script>
+    const n = prompt();
+    let answer = '';
+switch(n) {
+    case 1:
+        answer = "화성";
+        break;
+    case 2:
+        answer= '금성';
+        break;
+    case 3:
+        answer = '지구';
+        break;
+    case 4:
+        console.log("화성");
+        break;
+    case 5:
+        console.log("목성");
+        break;
+    case 6:
+        console.log("토성");
+        break;
+    case 7:
+        console.log("천왕성");
+        break;
+    case 8:
+        console.log("해왕성");
+        break;
+    default:
+        console.log("해당사항 없음");
+        break;
+        
+}
+document.getElementById("demo").innerHTML = answer; 
+</script> 
+</body>
+</html>
